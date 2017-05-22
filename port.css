@@ -1,0 +1,67 @@
+h1{
+    background-color: rgb(200,100,200);
+}
+
+nav{
+    border: 2px solid chartreuse;
+
+}
+.bobbin{
+    background-color: rgb(50,200,125);
+}
+
+
+#robbin{
+    color: yellow;
+}
+
+p{
+    background: #ffffff url("fakeblog.png") no-repeat fixed center;
+}
+
+nav a{
+    background-color: white;
+}
+
+nav>a:not(:last-child){
+    background-color: mediumorchid;
+}
+
+
+.bg-yellow{
+    background-color: yellow;
+}
+.bg-orange{
+    background-color: orange;
+}
+
+.br-large{
+    border-radius: 10px;
+}
+
+.br-medium{
+    border-radius: 5px;
+}
+.txt-color-purple{
+    color:purple;
+
+}
+.fullWidthContainer{
+    border-right-width: inherit;
+    height: 400px;
+    position:relative;
+    background:teal;
+}
+
+.bar{
+    width:200px;
+    height:400px;
+    position:relative;
+    background:linear-gradient(to top, rebeccapurple, yellowgreen);
+}
+.animate{
+    width:200px;
+    height:50px;
+    position:absolute;
+    background:linear-gradient(to top, purple,olive);
+}
